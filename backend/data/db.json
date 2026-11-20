@@ -1,8 +1,12 @@
 {
   "currentUser": {
     "id": "user_1",
-    "swipedProfiles": [],
-    "matches": []
+    "swipedProfiles": [
+      "p_1"
+    ],
+    "matches": [
+      "p_1"
+    ]
   },
   "profiles": [
     {
@@ -10,9 +14,13 @@
       "name": "Riya",
       "age": 22,
       "photo": "https://i.pravatar.cc/400?img=1",
-      "bio": "Love traveling and coffee ☕",
-      "city": "Delhi",
-      "interests": ["Travel", "Photography"],
+      "bio": "Love traveling, sunset views, and filter coffee ☕",
+      "city": "Delhi University",
+      "interests": [
+        "Travel",
+        "Photography",
+        "Coffee"
+      ],
       "hasLikedUser": true
     },
     {
@@ -20,9 +28,13 @@
       "name": "Aman",
       "age": 24,
       "photo": "https://i.pravatar.cc/400?img=11",
-      "bio": "Tech geek and gamer 🎮",
-      "city": "Mumbai",
-      "interests": ["Gaming", "Coding"],
+      "bio": "Tech geek, weekend gamer, and biryani enthusiast 🎮",
+      "city": "IIT Bombay",
+      "interests": [
+        "Gaming",
+        "Coding",
+        "Food"
+      ],
       "hasLikedUser": false
     },
     {
@@ -30,9 +42,13 @@
       "name": "Sneha",
       "age": 21,
       "photo": "https://i.pravatar.cc/400?img=5",
-      "bio": "Foodie. Always hungry! 🍕",
+      "bio": "Always looking for the best street food in town 🍕",
       "city": "Bangalore",
-      "interests": ["Food", "Music"],
+      "interests": [
+        "Food",
+        "Music",
+        "Art"
+      ],
       "hasLikedUser": true
     },
     {
@@ -40,9 +56,377 @@
       "name": "Kabir",
       "age": 25,
       "photo": "https://i.pravatar.cc/400?img=12",
-      "bio": "Gym, work, sleep, repeat 💪",
+      "bio": "Gym, work, sleep, repeat. Let's go for a run! 💪",
       "city": "Pune",
-      "interests": ["Fitness", "Movies"],
+      "interests": [
+        "Fitness",
+        "Movies",
+        "Running"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "p_5",
+      "name": "Ananya",
+      "age": 23,
+      "photo": "https://i.pravatar.cc/400?img=9",
+      "bio": "Bookworm by day, stargazer by night ✨",
+      "city": "Mumbai",
+      "interests": [
+        "Reading",
+        "Astronomy",
+        "Yoga"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "p_6",
+      "name": "Rohan",
+      "age": 24,
+      "photo": "https://i.pravatar.cc/400?img=13",
+      "bio": "Playing guitar and writing terrible poetry 🎸",
+      "city": "BITS Pilani",
+      "interests": [
+        "Music",
+        "Writing",
+        "Indie"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "p_7",
+      "name": "Priya",
+      "age": 22,
+      "photo": "https://i.pravatar.cc/400?img=10",
+      "bio": "Dog lover. If my dog likes you, we're good 🐶",
+      "city": "Chandigarh",
+      "interests": [
+        "Pets",
+        "Hiking",
+        "Baking"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "p_8",
+      "name": "Vikram",
+      "age": 26,
+      "photo": "https://i.pravatar.cc/400?img=14",
+      "bio": "Building startups and drinking too much chai.",
+      "city": "Gurgaon",
+      "interests": [
+        "Startups",
+        "Tech",
+        "Cricket"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "p_9",
+      "name": "Meera",
+      "age": 21,
+      "photo": "https://i.pravatar.cc/400?img=16",
+      "bio": "Classical dancer trying to learn hip-hop 💃",
+      "city": "Chennai",
+      "interests": [
+        "Dance",
+        "Cinema",
+        "Travel"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "p_10",
+      "name": "Aditya",
+      "age": 23,
+      "photo": "https://i.pravatar.cc/400?img=15",
+      "bio": "Formula 1 fan. Sunday plans are strictly booked 🏎️",
+      "city": "Hyderabad",
+      "interests": [
+        "F1",
+        "Cars",
+        "Gaming"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "p_11",
+      "name": "Neha",
+      "age": 24,
+      "photo": "https://i.pravatar.cc/400?img=20",
+      "bio": "UI/UX Designer obsessed with clean aesthetics 🎨",
+      "city": "NIFT Delhi",
+      "interests": [
+        "Design",
+        "Art",
+        "Coffee"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "p_12",
+      "name": "Siddharth",
+      "age": 25,
+      "photo": "https://i.pravatar.cc/400?img=17",
+      "bio": "Mountains over beaches any day of the week 🏔️",
+      "city": "Dehradun",
+      "interests": [
+        "Trekking",
+        "Camping",
+        "Photography"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "p_13",
+      "name": "Kavya",
+      "age": 22,
+      "photo": "https://i.pravatar.cc/400?img=23",
+      "bio": "Cinephile. Ask me for movie recommendations 🎬",
+      "city": "Kolkata",
+      "interests": [
+        "Movies",
+        "Theatre",
+        "Literature"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "p_14",
+      "name": "Arjun",
+      "age": 24,
+      "photo": "https://i.pravatar.cc/400?img=18",
+      "bio": "Basketball player and sneakerhead 👟",
+      "city": "Manipal",
+      "interests": [
+        "Basketball",
+        "Sneakers",
+        "Hip-Hop"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "p_15",
+      "name": "Tara",
+      "age": 23,
+      "photo": "https://i.pravatar.cc/400?img=24",
+      "bio": "Plant mom with 25 succulents and counting 🌱",
+      "city": "Jaipur",
+      "interests": [
+        "Gardening",
+        "Sustainability",
+        "Tea"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "p_16",
+      "name": "Dev",
+      "age": 25,
+      "photo": "https://i.pravatar.cc/400?img=33",
+      "bio": "Finance bro who secretly loves rom-coms.",
+      "city": "Mumbai",
+      "interests": [
+        "Finance",
+        "Movies",
+        "Swimming"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "p_17",
+      "name": "Ishita",
+      "age": 21,
+      "photo": "https://i.pravatar.cc/400?img=25",
+      "bio": "Psychology major analyzing your bio right now 👀",
+      "city": "Christ University",
+      "interests": [
+        "Psychology",
+        "Podcasts",
+        "Journaling"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "p_18",
+      "name": "Karan",
+      "age": 24,
+      "photo": "https://i.pravatar.cc/400?img=51",
+      "bio": "Amateur chef. I make a mean pasta 🍝",
+      "city": "Delhi",
+      "interests": [
+        "Cooking",
+        "Food",
+        "Standup Comedy"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "p_19",
+      "name": "Pooja",
+      "age": 23,
+      "photo": "https://i.pravatar.cc/400?img=26",
+      "bio": "Looking for someone to go to indie concerts with 🎶",
+      "city": "Pune",
+      "interests": [
+        "Concerts",
+        "Indie Music",
+        "Travel"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "p_20",
+      "name": "Nikhil",
+      "age": 26,
+      "photo": "https://i.pravatar.cc/400?img=52",
+      "bio": "Chess, coding, and late-night drives 🚗",
+      "city": "VIT Vellore",
+      "interests": [
+        "Chess",
+        "Coding",
+        "Driving"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "p_21",
+      "name": "Sanya",
+      "age": 22,
+      "photo": "https://i.pravatar.cc/400?img=27",
+      "bio": "Thrifting clothes and exploring old cafes ☕",
+      "city": "Bangalore",
+      "interests": [
+        "Fashion",
+        "Thrifting",
+        "Cafes"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "p_22",
+      "name": "Rahul",
+      "age": 25,
+      "photo": "https://i.pravatar.cc/400?img=53",
+      "bio": "Football fanatic. Hala Madrid! ⚽",
+      "city": "Goa",
+      "interests": [
+        "Football",
+        "Beaches",
+        "Gaming"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "p_23",
+      "name": "Divya",
+      "age": 24,
+      "photo": "https://i.pravatar.cc/400?img=28",
+      "bio": "Medical student surviving on caffeine and hope 🩺",
+      "city": "AIIMS Delhi",
+      "interests": [
+        "Medicine",
+        "Badminton",
+        "Music"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "p_24",
+      "name": "Varun",
+      "age": 23,
+      "photo": "https://i.pravatar.cc/400?img=54",
+      "bio": "Stand-up comedy open mic regular 🎤",
+      "city": "Mumbai",
+      "interests": [
+        "Comedy",
+        "Writing",
+        "Movies"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "p_25",
+      "name": "Nandini",
+      "age": 21,
+      "photo": "https://i.pravatar.cc/400?img=29",
+      "bio": "Painting landscapes and listening to Lo-Fi beats 🎨",
+      "city": "Ahmedabad",
+      "interests": [
+        "Painting",
+        "Lo-Fi",
+        "Sketching"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "p_26",
+      "name": "Harsh",
+      "age": 25,
+      "photo": "https://i.pravatar.cc/400?img=55",
+      "bio": "Cyclist and marathon runner 🚴",
+      "city": "Hyderabad",
+      "interests": [
+        "Cycling",
+        "Running",
+        "Fitness"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "p_27",
+      "name": "Shruti",
+      "age": 22,
+      "photo": "https://i.pravatar.cc/400?img=30",
+      "bio": "Law student who loves a good debate ⚖️",
+      "city": "NLU Jodhpur",
+      "interests": [
+        "Debate",
+        "Reading",
+        "Politics"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "p_28",
+      "name": "Abhishek",
+      "age": 24,
+      "photo": "https://i.pravatar.cc/400?img=56",
+      "bio": "Photography hobbyist capturing street stories 📸",
+      "city": "Varanasi",
+      "interests": [
+        "Photography",
+        "Travel",
+        "History"
+      ],
+      "hasLikedUser": false
+    },
+    {
+      "id": "p_29",
+      "name": "Aarti",
+      "age": 23,
+      "photo": "https://i.pravatar.cc/400?img=31",
+      "bio": "Yoga instructor and smoothie bowl lover  smoothie 🍓",
+      "city": "Rishikesh",
+      "interests": [
+        "Yoga",
+        "Meditation",
+        "Healthy Food"
+      ],
+      "hasLikedUser": true
+    },
+    {
+      "id": "p_30",
+      "name": "Manish",
+      "age": 26,
+      "photo": "https://i.pravatar.cc/400?img=57",
+      "bio": "Software engineer trying to exit Vim 💻",
+      "city": "Noida",
+      "interests": [
+        "Linux",
+        "Open Source",
+        "Sci-Fi"
+      ],
       "hasLikedUser": false
     }
   ]

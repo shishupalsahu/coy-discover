@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Home, Flame, MessageCircle } from 'lucide-react';
 import HomeTab from './components/HomeTab';
+import DiscoverTab from './components/DiscoverTab';
+import MatchesTab from './components/MatchesTab';
 
 function App() {
   // State to track which tab is currently active ('home', 'discover', or 'matches')
@@ -28,16 +30,10 @@ function App() {
           {activeTab === 'home' && <HomeTab />}
           
           {activeTab === 'discover' && (
-            <div className="flex items-center justify-center h-full text-gray-500">
-              Discover Tab (Coming next...)
-            </div>
+            <DiscoverTab onNavigateToMatches={() => setActiveTab('matches')} />
           )}
 
-          {activeTab === 'matches' && (
-            <div className="flex items-center justify-center h-full text-gray-500">
-              Matches Tab (Coming next...)
-            </div>
-          )}
+          {activeTab === 'matches' && <MatchesTab />}
         </main>
 
         {/* Bottom Navigation Bar */}
