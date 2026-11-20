@@ -1,0 +1,49 @@
+{
+  "currentUser": {
+    "id": "user_1",
+    "swipedProfiles": [],
+    "matches": []
+  },
+  "profiles": [
+    {
+      "id": "p_1",
+      "name": "Riya",
+      "age": 22,
+      "photo": "https://i.pravatar.cc/400?img=1",
+      "bio": "Love traveling and coffee ☕",
+      "city": "Delhi",
+      "interests": ["Travel", "Photography"],
+      "hasLikedUser": true
+    },
+    {
+      "id": "p_2",
+      "name": "Aman",
+      "age": 24,
+      "photo": "https://i.pravatar.cc/400?img=11",
+      "bio": "Tech geek and gamer 🎮",
+      "city": "Mumbai",
+      "interests": ["Gaming", "Coding"],
+      "hasLikedUser": false
+    },
+    {
+      "id": "p_3",
+      "name": "Sneha",
+      "age": 21,
+      "photo": "https://i.pravatar.cc/400?img=5",
+      "bio": "Foodie. Always hungry! 🍕",
+      "city": "Bangalore",
+      "interests": ["Food", "Music"],
+      "hasLikedUser": true
+    },
+    {
+      "id": "p_4",
+      "name": "Kabir",
+      "age": 25,
+      "photo": "https://i.pravatar.cc/400?img=12",
+      "bio": "Gym, work, sleep, repeat 💪",
+      "city": "Pune",
+      "interests": ["Fitness", "Movies"],
+      "hasLikedUser": false
+    }
+  ]
+}
