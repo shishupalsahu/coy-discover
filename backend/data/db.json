@@ -1,12 +1,8 @@
 {
   "currentUser": {
     "id": "user_1",
-    "swipedProfiles": [
-      "p_1"
-    ],
-    "matches": [
-      "p_1"
-    ]
+    "swipedProfiles": [],
+    "matches": []
   },
   "profiles": [
     {
