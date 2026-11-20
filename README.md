@@ -1,4 +1,4 @@
-# Coy - Discover Tab (SDE Intern Assignment)
+# Coy - Discover Tab 
 
 A mobile-first, swipe-based discovery feature built alongside Coy's existing experience using React, Node.js, and Express.
 
@@ -20,7 +20,7 @@ cd backend
 npm install
 npm run dev
 
-### 1. Start the Frontend App
+### 2. Start the Frontend App
 Open a new terminal window:
 
 ```bash
@@ -30,5 +30,5 @@ npm run dev
 
 Open http://localhost:5173 in your browser.
 
----
+---------------------------------------------------------
 
